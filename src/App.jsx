@@ -362,7 +362,7 @@ function Hero() {
                 transition={{ duration: 0.4 }}
               >
                 <img
-                  src="/timoshin_team_lead.png"
+                  src={`${import.meta.env.BASE_URL}timoshin_team_lead.png`}
                   alt="Денис Тимошин"
                   className="relative w-full rounded-3xl shadow-2xl shadow-black/50 object-cover"
                   loading="eager"
@@ -492,7 +492,7 @@ function About() {
                   transition={{ duration: 0.4 }}
                 >
                   <img
-                    src="/timoshin_autor.png"
+                    src={`${import.meta.env.BASE_URL}timoshin_autor.png`}
                     alt="Денис Тимошин"
                     className="relative w-full rounded-3xl shadow-xl shadow-black/5 object-cover aspect-square"
                     loading="lazy"
@@ -857,7 +857,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <img
-            src="/timoshin_logo.png"
+            src={`${import.meta.env.BASE_URL}timoshin_logo.png`}
             alt="Денис Тимошин"
             className="w-8 h-8 object-contain"
           />
