@@ -192,7 +192,7 @@ function Navbar() {
           <a href="#" className="flex items-center gap-3 group">
             <div className="relative">
               <img
-                src="{`${import.meta.env.BASE_URL}/timoshin_logo.png"
+                src="{`${import.meta.env.BASE_URL}timoshin_logo.png"
                 alt="Денис Тимошин"
                 className="w-10 h-10 object-contain transition-transform group-hover:scale-110"
               />
