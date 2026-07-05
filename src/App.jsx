@@ -712,7 +712,7 @@ function FAQSection() {
           <div className="text-center mb-12 sm:mb-16">
             <span className="text-sm font-semibold text-[#ef5d2b] uppercase tracking-widest">FAQ</span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mt-3 mb-4">
-              Выберите свой путь — не идеальный, а ваш
+              Выберите свой путь — не идеальный, а&nbsp;ваш
             </h2>
             <p className="text-gray-400 text-base sm:text-lg">
               Каждый путь — это набор практических инструментов для конкретной задачи.
