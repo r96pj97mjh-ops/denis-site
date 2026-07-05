@@ -85,13 +85,13 @@ export const REVIEWS = [
   {
     name: 'Дмитрий Полянсков',
     role: 'QA инженер',
-    avatar: 'https://static.tildacdn.pub/tild6661-3161-4131-b939-343434663731/photo_2026-03-19_163.jpeg',
+    avatar: '${import.meta.env.BASE_URL}polyanskov.jpg',
     text: '«Playwright Python» отличный курс для тех, кто хочет освоить Playwright с нуля! Материал подан очень доступно и структурированно. Никакой «воды», только конкретика и практические знания.'
   },
   {
     name: 'Евгений Кузлякин',
     role: 'Педагог дополнительного образования',
-    avatar: 'https://static.tildacdn.pub/tild6231-6431-4139-b365-306130346238/noroot.png',
+    avatar: '${import.meta.env.BASE_URL}kuzlyakin.png',
     text: '«Python для тестировщиков» отличный курс для новичков. Весь курс подан в разрезе работы тестировщика, на простых и понятных примерах. Рекомендую как первый шаг к пониманию будущей работы.'
   },
   {
