@@ -85,13 +85,13 @@ export const REVIEWS = [
   {
     name: 'Дмитрий Полянсков',
     role: 'QA инженер',
-    avatar: '${import.meta.env.BASE_URL}polyanskov.jpg',
+    avatar: `${import.meta.env.BASE_URL}polyanskov.jpg`,
     text: '«Playwright Python» отличный курс для тех, кто хочет освоить Playwright с нуля! Материал подан очень доступно и структурированно. Никакой «воды», только конкретика и практические знания.'
   },
   {
     name: 'Евгений Кузлякин',
     role: 'Педагог дополнительного образования',
-    avatar: '${import.meta.env.BASE_URL}kuzlyakin.png',
+    avatar: `${import.meta.env.BASE_URL}kuzlyakin.png`,
     text: '«Python для тестировщиков» отличный курс для новичков. Весь курс подан в разрезе работы тестировщика, на простых и понятных примерах. Рекомендую как первый шаг к пониманию будущей работы.'
   },
   {
