@@ -85,7 +85,7 @@ export const REVIEWS = [
   {
     name: 'Дмитрий Полянсков',
     role: 'QA инженер',
-    avatar: `${import.meta.env.BASE_URL}polyanskov.jpg`,
+    avatar: `${import.meta.env.BASE_URL}polyanskov.jpeg`,
     text: '«Playwright Python» отличный курс для тех, кто хочет освоить Playwright с нуля! Материал подан очень доступно и структурированно. Никакой «воды», только конкретика и практические знания.'
   },
   {
@@ -97,7 +97,7 @@ export const REVIEWS = [
   {
     name: 'Ирина Гербер',
     role: 'Тимлид',
-    avatar: 'https://static.tildacdn.pub/tild6335-6137-4630-a662-653936666262/tl.png',
+    avatar: `${import.meta.env.BASE_URL}gerber.png`,
     text: 'Курс «Архитектура команды» отличный! Особенно понравилось про синдром самозванца и кейс с "сеньором-циником" — очень практично и применимо. Однозначно рекомендую.'
   },
   {
